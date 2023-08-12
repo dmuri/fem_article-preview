@@ -21,7 +21,7 @@ const socialLinks = [
 ];
 
 const Share = () => {
-  const [showShare, setShowShare] = useState(true);
+  const [showShare, setShowShare] = useState(false);
 
   const handleClick = () => {
     if (showShare) setShowShare(false);
